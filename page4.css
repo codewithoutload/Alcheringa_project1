@@ -1,0 +1,19 @@
+.flex-container-1{
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.flex-container-2{
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+
+
+
+}
+
