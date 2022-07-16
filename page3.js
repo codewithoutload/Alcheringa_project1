@@ -12,8 +12,7 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  x.innerHTML =   "Latitude: " + position.coords.latitude +
-  "<br>Longitude: " + position.coords.longitude;
+  
 
 
 
@@ -32,8 +31,8 @@ var settings = {
   $.ajax(settings).done(function (response) {
     console.log(response);
 
-
-
+console.log(response.address.city);
+x.innerHTML = response.address.city +", "+response.address.state+", "+response.address.postcode;
   });
 
 
