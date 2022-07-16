@@ -25,7 +25,7 @@ var num2=position.coords.longitude;
 var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "https://us1.locationiq.com/v1/reverse?key=pk.bfec039abdf82022192ea39cf6935d75&lat=-37.870662&lon=144.9803321&format=json",
+    "url": "https://us1.locationiq.com/v1/reverse?key=pk.bfec039abdf82022192ea39cf6935d75&lat=num1&lon=num2&format=json",
     "method": "GET"
   }
   
